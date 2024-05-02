@@ -14,6 +14,10 @@ const App: React.FC = () => {
           <ProductList />
         </div>
       </main>
+
+      <footer>
+        CADASTRA: Implantação de E-commerce VTEX
+      </footer>
     </CartProvider> 
   );
 };
