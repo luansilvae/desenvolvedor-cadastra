@@ -1,5 +1,5 @@
 export interface Product {
-  id: string;
+  id: number;
   name: string;
   price: number;
   parcelamento: Array<number>;
@@ -7,4 +7,5 @@ export interface Product {
   image: string;
   size: Array<string>;
   date: string;
+  amount: number;
 }
