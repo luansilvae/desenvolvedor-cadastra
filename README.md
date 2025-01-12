@@ -1,76 +1,84 @@
-# Venha ser um desenvolvedor da Cadastra
+<div align="center">
+   <h3>Teste Front-end Cadastra</h3>
+</div>
+<br/>
+<div align="center">
+   <a href="https://github.com/luansilvae">
+      <img alt="Made by luansilvae" src="https://img.shields.io/badge/made%20by-luansilvae-purple">
+   </a>
 
-Olá! Somos a Cadastra, uma Next-Gen Company que oferece soluções globais em marketing, tecnologia, estratégia de negócios, commerce, dados e analytics. Este desafio é voltado para o nosso Centro de Excelência (COE) de Commerce, especializado em implantação, migração, evolução e otimização de e-commerce.  Contamos com escritórios em 5 países, mas num formato de trabalho 100% home office.
+   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/luansilvae/desenvolvedor-cadastra">
 
-Estamos em busca de Pessoas Desenvolvedoras `Front-end`, com sólidos conhecimentos em HTML, CSS e TS para projetar interfaces e entregar a melhor experiência para os consumidores visando sempre a otimização do código e agilidade no desenvolvimento.
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/luansilvae/desenvolvedor-cadastra">
 
-## O que procuramos
+   <a href="https://github.com/luansilvae/desenvolvedor-cadastra/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/luansilvae/desenvolvedor-cadastra">
+   </a>
+   </br>
+   </br>
+   <a href="#-tecnologias-utilizadas">
+      <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB">
+      <img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white">
+      <img alt="SASS" src="https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>
+   </a>
+</div>
 
-### Requisitos Obrigatórios
+</br>
+<div align="center">
 
-- Html5, css3;
-- Javascript/Typescript;
-- Consumo de APIs.
-- Versionamento Git;
-- Grunt/gulp;
-- Sass/less;
-- Nodejs
-- Sites responsivos;
-- Iniciativa, criatividade e colaboração;
-- Boas práticas: reutilização de código, semântica, organização, performance.
+  [**Sobre**](#-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Tecnologias e ferramentas utilizadas**](#-tecnologias-e-ferramentas-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Instalação e execução**](#-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Contato**](#-contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 
-### Desejáveis:
+</div>
 
-- Experiência com algum CMS
-- Conhecimento/Experiência em Vtex
-- Nodejs
+## 📃 Sobre
 
-----
+Teste prático de Front-end, listagem de produtos de um e-commerce
 
-## Como se candidatar a vaga
+## 🔨 Tecnologias e ferramentas utilizadas
 
-- [Crie um fork desse projeto;](https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra/fork)
-- No seu fork, codifique o layout seguindo as instruções abaixo;
-- Atualize o readme com as instruções necessárias para rodar o seu código;
-- Adicione também seu e-mail de contato ao readme do projeto ( caso seu e-mail do github esteja privado )
-- envie para [vinicius.delfino@cadastra.com](mailto:vinicius.delfino@cadastra.com?subject=Vaga%20DEV%20-%20Cadastra) com cópia para [andresa.klein@cadastra.com](mailto:andresa.klein?subject=Vaga%20DEV%20-%20Cadastra)
- 
+Este projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
-**obs.**: link do projeto [github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra](https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra)
+- [**React**](https://reactjs.org/)
 
-### Instruções para o teste
+- [**TypeScript**](https://www.typescriptlang.org/)
 
-O layout se encontra no [figma](https://www.figma.com/file/Z5RCG3Ewzwm7XIPuhMUsBZ/Desafio-Cadastra?type=design&node-id=0%3A1&mode=design&t=A0G2fRjMSrcQjchw-1).
+- [**Sass**](https://sass-lang.com/)
 
-### Dependências
+## 🔧 Instalação e execução
 
-O projeto possui um setup pronto no qual há a necessidade de possuir o nodejs instalado na versão 14 ou superior.
+Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).
 
-Para instalar as dependências só é preciso executar o comando: `npm install`
+Com o Git instalado, em seu terminal execute o seguinte comando:
 
-O dar start no server e nos processos para desenvolvimento é necessário rodar o comando: `npm start `
+```bash
+git clone https://github.com/luansilvae/desenvolvedor-cadastra.git
+```
 
-Uma ver que o comando é dado ele irá levantar 2 servidores, sendo eles:
- - um para acessar o front-end que roda na porta 3000. No qual pode ser acessado pela url: http://localhost:3000
- - um para o json-server que irá export uma api com a lista de produtos que roda na porta 5000. Para acessar os produtos é na url:  http://localhost:5000/products
+Para instalar as dependências é preciso estar dentro da pasta do projeto e terá que ter instalado em sua máquina o [**Node.js**](https://nodejs.org/en/) na versão 14 ou superior, que vem acompanhado do NPM. Com ele instalado:
 
-### Objetivo
+Instale as dependências do projeto:
 
-O objetivo desse desafio é avaliar a seus conhecimentos fundamentais de front end, por isso pedimos que não utilize nenhum framework, porem caso deseje utilizar frameworks como react, é possível adicionar ao setup.
-### Obrigatório
+```bash
+npm install
+```
 
-- HTML5 e CSS3
-- Typescript
-- Requisição a API para obter os produtos
-- Funcionalidade: Filtrar produtos por cor, tamanho e preço.
-- Funcionalidade: Adicionar produto ao carrinho.
-- Funcionalidade: Carregar mais produtos.
-- Não utilizar Bootstrap, Foundation Css, Semantic ui ou semelhantes ;
-- Responsividade
+Execute o projeto:
 
-#### Bônus
+```bash
+npm start
+```
 
-- Typescript com clean code
-- Adição de processo no gulp para otimizar imagens
+Ao rodar o comando start a aplicação irá subir 2 servidores, sendo eles:
 
-##### Dúvidas: [vinicius.delfino@cadastra.com](mailto:vinicius.delfino@cadastra.com?subject=Dúvida%20Vaga%20DEV%20-%20Cadastra)
+- Acesso ao front-end que roda na porta 3000. No qual pode ser acessado pela url: http://localhost:3000
+- json-server que irá exportar uma api com a lista de produtos que roda na porta 5000. Para acessar os produtos é na url: http://localhost:5000/products
+
+## 📲 Contato
+
+Entre em contato comigo por e-mail ou pelo meu LinkedIn:
+
+<a href="mailto:luansilvae27@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/luansilvae/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>

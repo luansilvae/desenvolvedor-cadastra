@@ -1,5 +1,3 @@
-const path = require("path");
-
 const { series, src, dest, parallel, watch } = require("gulp");
 const webpack = require("webpack");
 const del = require("del");
@@ -12,8 +10,8 @@ const webpackConfig = require("./webpack.config.js");
 
 const paths = {
   scripts: {
-    src: "src/ts/index.ts",
-    watch: "src/ts/**/*.ts",
+    src: "src/index.tsx",
+    watch: "src/**/*.tsx",
   },
   styles: {
     src: "src/scss/main.scss",

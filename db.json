@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Camiseta Mescla",
       "price": 28.8,
       "parcelamento": [3, 9.33],
@@ -11,7 +11,7 @@
       "date": "1995-12-17"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Saia em couro",
       "price": 398.0,
       "parcelamento": [5, 30],
@@ -21,7 +21,7 @@
       "date": "1996-12-17"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Cardigan Tigre",
       "price": 398.8,
       "parcelamento": [5, 30],
@@ -31,7 +31,7 @@
       "date": "1997-12-17"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Cardigan off white",
       "price": 99.9,
       "parcelamento": [3, 33.3],
@@ -41,7 +41,7 @@
       "date": "1998-12-17"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Body Leopardo",
       "price": 129.9,
       "parcelamento": [3, 43.43],
@@ -51,7 +51,7 @@
       "date": "1999-12-17"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Casaco Pelos",
       "price": 398.0,
       "parcelamento": [5, 30],
@@ -61,7 +61,7 @@
       "date": "1999-12-16"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Cropped Stripes",
       "price": 120.0,
       "parcelamento": [3, 40],
@@ -71,7 +71,7 @@
       "date": "2000-12-17"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Camisa Transparente",
       "price": 398.0,
       "parcelamento": [5, 30],
@@ -81,7 +81,7 @@
       "date": "2000-11-17"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Pochete Clutch",
       "price": 99.0,
       "parcelamento": [3, 33],
@@ -91,54 +91,55 @@
       "date": "2003-12-17"
     },
     {
-      "id": "9",
-      "name": "Pochete Clutch",
-      "price": 99.0,
-      "parcelamento": [3, 33],
-      "color": "Preto",
-      "image": "/img/img_10.png",
-      "size": ["M"],
-      "date": "2003-12-17"
+      "id": 10,
+      "name": "Camisa Polo",
+      "price": 129.0,
+      "parcelamento": [4, 32.25],
+      "color": "Azul",
+      "image": "/img/img_11.png",
+      "size": ["P", "M", "G"],
+      "date": "2023-10-15"
     },
     {
-      "id": "9",
-      "name": "Pochete Clutch",
-      "price": 99.0,
-      "parcelamento": [3, 33],
-      "color": "Preto",
-      "image": "/img/img_10.png",
-      "size": ["M"],
-      "date": "2003-12-17"
+      "id": 11,
+      "name": "Calça Jeans",
+      "price": 199.0,
+      "parcelamento": [5, 39.8],
+      "color": "Indigo",
+      "image": "/img/img_12.png",
+      "size": ["38", "40", "42", "44"],
+      "date": "2023-11-01"
     },
     {
-      "id": "9",
-      "name": "Pochete Clutch",
-      "price": 99.0,
-      "parcelamento": [3, 33],
-      "color": "Preto",
-      "image": "/img/img_10.png",
-      "size": ["M"],
-      "date": "2003-12-17"
+      "id": 12,
+      "name": "Vestido Longo",
+      "price": 249.0,
+      "parcelamento": [6, 41.5],
+      "color": "Vermelho",
+      "image": "/img/img_13.png",
+      "size": ["P", "M", "G"],
+      "date": "2023-09-20"
     },
     {
-      "id": "9",
-      "name": "Pochete Clutch",
-      "price": 99.0,
-      "parcelamento": [3, 33],
+      "id": 13,
+      "name": "Jaqueta de Couro",
+      "price": 399.0,
+      "parcelamento": [8, 49.88],
       "color": "Preto",
-      "image": "/img/img_10.png",
-      "size": ["M"],
-      "date": "2003-12-17"
+      "image": "/img/img_14.png",
+      "size": ["M", "G", "GG"],
+      "date": "2023-08-05"
     },
     {
-      "id": "9",
-      "name": "Pochete Clutch",
-      "price": 99.0,
-      "parcelamento": [3, 33],
-      "color": "Preto",
-      "image": "/img/img_10.png",
-      "size": ["M"],
-      "date": "2003-12-17"
+      "id": 14,
+      "name": "Blusa de Tricô",
+      "price": 149.0,
+      "parcelamento": [3, 49.67],
+      "color": "Bege",
+      "image": "/img/img_15.png",
+      "size": ["P", "M"],
+      "date": "2023-07-12"
     }
+    
   ]
 }
